@@ -6,4 +6,4 @@
 
 3. npm run-script serve
 
-4. open serving local host from web browser and you can see working project with live api and live database
+4. open serving local host from web browser and you can see working project with live api and live mongoDB
