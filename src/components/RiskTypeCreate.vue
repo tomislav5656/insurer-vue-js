@@ -82,6 +82,7 @@ export default{
       .then(response=>{        
         this.emitChanges(this.fromApiToLocalModel(response))
         helper.messageSuccessGeneral('Field saved')
+        this.field.name = ''
        })
       .catch(error=>{
         helper.messageNotSuccessGeneral()
