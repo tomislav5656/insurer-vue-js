@@ -1,6 +1,6 @@
 # insurer-vue-js
 
-1. download project and navigate from cmd to folder
+1. download the project and navigate from cmd to folder
 
 2. npm install
 
