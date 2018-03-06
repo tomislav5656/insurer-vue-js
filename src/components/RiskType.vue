@@ -48,6 +48,7 @@ export default{
       .then(response=>{
         this.$root.$emit(this.localvar.emitterRiskTypeList, response.body) // emitter for changes in risk type list
         helper.messageSuccessGeneral('Risk type saved') // we can handle text with constants or translations
+        this.riskType.name=''
       })
       .catch(error=>{
         // handling the errors
